@@ -79,7 +79,7 @@ vpn(){
 
 	if [ $vpn = 'expressvpn' ] ;then
 		if [ $connected = 'If' ]; then
-			echo ''
+			echo 'a'
 		else
 			echo "Vpn not connected."
 			exit
