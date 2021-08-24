@@ -215,7 +215,8 @@ window_manager(){
 
 editor(){
 	sudo pacman -S --noconfirm cmake unzip ninja tree-sitter npm nodejs 
-
+	#Formatting for python
+	pip install autopep8
 	cd ~/downloads
 	git clone https://github.com/neovim/neovim.git 
 	cd ~/downloads/neovim 
